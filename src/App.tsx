@@ -5,6 +5,7 @@ import React from 'react'
 import {Contador} from './components/Contador'
 import {ContadorConHook} from './components/ContadorConHook'
 import {Login} from './components/Login';
+import {Usuarios} from './components/Usuarios';
 
  const App = () => {
   return (
@@ -16,7 +17,8 @@ import {Login} from './components/Login';
       {/* <Funciones /> */}
       {/* <Contador /> */}
       {/* <ContadorConHook /> */}
-      <Login />
+      <Usuarios />
+      {/* <Login /> */}
     </div>
   )
 }
